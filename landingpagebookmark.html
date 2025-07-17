@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bookmark Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="landing page bookmark.css">
+</head>
+
+<body>
+<header>
+	<h1>My bookmarks</h1>
+</header>
+<main>
+	<section class="bookmark-form">
+		<input type="url" name="url" id="urlInput" placeholder="Enter URL" pattern="https://.*" size="50" required>
+		<button id="addBookmark">Add Bookmark</button>
+		<button id="deleteAll">Delete All Bookmarks</button>
+	</section>
+	<section class="bookmarks">
+		<ul id="bookmarkList">
+			
+			<!-- Bookmarks will be added here dynamically -->
+		</ul>
+	</section>
+</main>
+<script src ="landing page bookmark.js"></script>
+</body>
+
+</html>
