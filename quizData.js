@@ -72,7 +72,7 @@ function checkAnswer(selectedOption) {
 // Start the timer
 function startTimer() {
 	timerInterval = setInterval(() => {
-		timeLeft-;
+		timeLeft--;
 		timerEl.textContent = timeLeft;
 		if (timeLeft <= 0) {
 			clearInterval(timerInterval);
