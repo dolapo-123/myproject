@@ -10,3 +10,4 @@
 # Load the first question 
 # Initialize the quiz with the first question"# quizData" 
 "# quizTimer" 
+"# quizTimer" 
